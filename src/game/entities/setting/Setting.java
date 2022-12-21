@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Setting {
-//    private static final String INIT_FILE = "src/Main.java/init.json";
+//    private static final String INIT_FILE = "src/game.Main.java/init.json";
 //    private static volatile Setting SETTINGS;
 //    private int mapRows;
 //    private int mapCols;

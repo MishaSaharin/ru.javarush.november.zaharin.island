@@ -1,6 +1,6 @@
 package game.entities;
 
-import island.Location;
+import game.island.Location;
 
 public interface Herbivore {
     default void eat(Location location){

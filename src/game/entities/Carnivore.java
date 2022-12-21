@@ -1,6 +1,6 @@
 package game.entities;
 
-import island.Location;
+import game.island.Location;
 
 public interface Carnivore {
     default void eat(Location location) {

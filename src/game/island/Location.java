@@ -1,4 +1,4 @@
-package island;
+package game.island;
 
 import game.entities.Carnivore;
 import game.entities.Herbivore;

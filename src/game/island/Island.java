@@ -1,4 +1,4 @@
-package island;
+package game.island;
 
 import java.util.List;
 

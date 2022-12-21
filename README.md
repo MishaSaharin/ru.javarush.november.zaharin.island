@@ -1,2 +1,2 @@
-# ru.javarush.november.zaharin.island
+# ru.javarush.november.zaharin.game.island
 language level 16
