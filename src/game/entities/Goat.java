@@ -1,9 +1,11 @@
 package game.entities;
 
-public class Goat extends Animal implements Herbivore{
+import game.entities.setting.GeneralBasicParameters;
+
+public class Goat extends Animal implements Herbivore {
     //eat plant
 
     public Goat() {
-        super();
+        super(GeneralBasicParameters.GOAT_BASIC_PARAMETER);
     }
 }

@@ -1,9 +1,11 @@
 package game.entities;
 
-public class Eagle extends Animal implements Carnivore {
+import game.entities.setting.GeneralBasicParameters;
+
+public class Eagle extends Animal implements Omnivore {
     //eat herbivore and fox
 
     public Eagle() {
-        super();
+        super(GeneralBasicParameters.EAGLE_BASIC_PARAMETER);
     }
 }

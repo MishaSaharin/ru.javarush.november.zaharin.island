@@ -1,9 +1,11 @@
 package game.entities;
 
-public class Boar extends Animal implements Herbivore {
-    //eat plant and caterpillar
+import game.entities.setting.GeneralBasicParameters;
+
+public class Boar extends Animal implements Omnivore {
+    //eat plant and mouse, caterpillar
 
     public Boar() {
-        super();
+        super(GeneralBasicParameters.BOAR_BASIC_PARAMETER);
     }
 }

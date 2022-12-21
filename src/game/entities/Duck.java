@@ -1,9 +1,11 @@
 package game.entities;
 
-public class Duck extends Animal implements Herbivore {
+import game.entities.setting.GeneralBasicParameters;
+
+public class Duck extends Animal implements Omnivore {
     //eat plant and caterpillar
 
     public Duck() {
-        super();
+        super(GeneralBasicParameters.DUCK_BASIC_PARAMETER);
     }
 }

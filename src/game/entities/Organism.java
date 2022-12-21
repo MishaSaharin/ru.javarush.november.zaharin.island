@@ -1,9 +1,9 @@
 package game.entities;
 
 public abstract class Organism {
-    private double weight;
+    protected double weight;
 
-    public double getWeight() {
-        return weight;
+    public Organism() {
+        super();
     }
 }

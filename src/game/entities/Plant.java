@@ -1,9 +1,11 @@
 package game.entities;
 
-public class Plant extends Animal{
+import game.entities.setting.GeneralBasicParameters;
+
+public class Plant extends Animal {
     //reproduce
 
     public Plant() {
-        super();
+        super(GeneralBasicParameters.PLANT_BASIC_PARAMETER);
     }
 }
