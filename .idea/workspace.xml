@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90775bdb-ddb6-4288-a194-65497f76553a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ru.javarush.november.zaharin.isLand.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/creators/WorldGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/Organism.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/Carnivorous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/Herbivorous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/Omnivores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/carnivorous/Bear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/carnivorous/Boa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/carnivorous/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/carnivorous/Fox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/carnivorous/Wolf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/herbivores/Boar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/herbivores/Buffalo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/herbivores/Caterpillar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/herbivores/Deer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/herbivores/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/herbivores/Goat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/herbivores/Horse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/herbivores/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/herbivores/Rabbit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/animals/herbivores/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/organisms/plants/Plant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/settings/Setting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/world/GameField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/entities/world/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/services/AnimalTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/services/LifeWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/services/PlantTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Bear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Boa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Boar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Buffalo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Carnivore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Caterpillar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Deer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Duck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Eagle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Fox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Goat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Herbivore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Horse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Mouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Omnivore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Organism.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Plant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Rabbit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Sheep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/Wolf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/setting/ChanceToBeEat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/setting/GeneralBasicParameters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/setting/SerializationJ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/entities/setting/Setting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/AnimalFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/BearFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/BoaFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/BoarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/BuffaloFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/CaterpillarFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/DeerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/DuckFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/EagleFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/FoxFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/GoatFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/HorseFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/MouseFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/PlantFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/RabbitFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/SheepFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/factory/WolfFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/island/Island.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/island/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/utility/Randomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/util/Randomizer.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JMUjUz6PIZqwAd4jSk9U3lilk3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="game.Runner" />
+      <module name="ru.javarush.november.zaharin.isLand" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ru.javarush.november.zaharin.island" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ru.javarush.november.zaharin.island" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Runner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90775bdb-ddb6-4288-a194-65497f76553a" name="Changes" comment="" />
+      <created>1671887580199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671887580199</updated>
+    </task>
+    <servers />
+  </component>
+</project>
