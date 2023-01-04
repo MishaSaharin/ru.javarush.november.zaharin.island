@@ -17,7 +17,7 @@ public class AnimalTask implements Runnable{
 
     @Override
     public void run() {
-        location.getLock().lock();
+        animal.getLock().lock();
         try {
             if(animal instanceof Carnivorous carnivorous) {
                 carnivorous.eat(location);
@@ -39,7 +39,7 @@ public class AnimalTask implements Runnable{
         } catch (Exception ex) {
             ex.printStackTrace();
         } finally {
-            location.getLock().unlock();
+            animal.getLock().unlock();
         }
     }
 }

@@ -7,10 +7,13 @@ import game.util.Randomizer;
 
 import java.util.Set;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public abstract class Animal extends Organism implements Cloneable {
 
     protected Class<? extends Animal> aClass;
+    private final Lock lock = new ReentrantLock(true);
 
     public Animal() {
         super();
@@ -64,14 +67,6 @@ public abstract class Animal extends Organism implements Cloneable {
         }
     }
 
-    public double getCurrentWeight() {
-        return weight;
-    }
-
-    private int getMaxNumberOfStepsAnimal() {
-        return (int) Setting.BASIC_PARAMETERS_OF_ANIMALS.get(this.aClass)[2];
-    }
-
     private Location choiceOfAvailableLocation(Location location) {
         int steps = getMaxNumberOfStepsAnimal();
         for (int i = steps; i >= 0; i--) {
@@ -89,5 +84,17 @@ public abstract class Animal extends Organism implements Cloneable {
         } catch (CloneNotSupportedException e) {
             throw new AssertionError();
         }
+    }
+
+    public double getCurrentWeight() {
+        return weight;
+    }
+
+    private int getMaxNumberOfStepsAnimal() {
+        return (int) Setting.BASIC_PARAMETERS_OF_ANIMALS.get(this.aClass)[2];
+    }
+
+    public Lock getLock() {
+        return lock;
     }
 }
