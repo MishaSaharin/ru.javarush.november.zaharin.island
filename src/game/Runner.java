@@ -1,13 +1,16 @@
 package game;
 
-import game.creators.WorldGenerator;
-import game.entities.settings.Setting;
-import game.services.LifeWorker;
+import game.entities.Game;
+import game.entities.settings.Initializer;
+import game.entities.world.World;
+import game.services.GameWorker;
 
 public class Runner {
     public static void main(String[] args) {
-        WorldGenerator world = new WorldGenerator(Setting.SIZE_OF_GAME_FIELD_Y, Setting.SIZE_OF_GAME_FIELD_X);
-        LifeWorker lifeWorker = new LifeWorker(world);
-        lifeWorker.start();
+        Initializer initializer = new Initializer();
+        World world = initializer.createWorld();
+        Game game = new Game(world);
+        GameWorker gameWorker = new GameWorker(game);
+        gameWorker.start();
     }
 }
